@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sachin Kumar | Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <style>
+    :root {
+      --aiinhbfoop-main-color: 1, 167, 125;
+      --aiinhbfoop-fg-rgb: 0, 0, 0;
+      --aiinhbfoop-bg-rgb: 255, 255, 255;
+      --aiinhbfoop-html-bg-color: rgb(0, 3, 7);
+      --aiinhbfoop-option-card-bg-color: rgb(90, 13, 158);
+      --aiinhbfoop-border-color: rgba(0, 0, 0, .15);
+      --aiinhbfoop-ring-color: rgba(59, 130, 246, .5);
+      --aiinhbfoop-ring-offset-color: #540dce;
+      --aiinhbfoop-ring-offset-width: 0px;
+    }
+
+    @keyframes verticalBounce {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-12px);
+      }
+    }
+
+    .animate-vertical {
+      animation: verticalBounce 2s ease-in-out infinite;
+    }
+
+    body {
+      background: linear-gradient(to right, #be8ddc, #82bddb);
+      font-family: "Times New Roman", Times, serif;
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+    }
+  </style>
+</head>
+<body class="text-white-800">
+
+  <!-- Navigation -->
+  <nav class="bg-violet shadow fixed top-0 w-full z-50">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-xl font-bold text-blue-700 animate-vertical">Sachin Kumar</h1>
+      <ul class="flex space-x-6 text-sm font-semibold">
+        <li><a href="#about" class="hover:text-blue-600">About</a></li>
+        <li><a href="#skills" class="hover:text-blue-600">Skills</a></li>
+        <li><a href="#projects" class="hover:text-blue-600">Projects</a></li>
+        <li><a href="#achievements" class="hover:text-blue-600">Achievements</a></li>
+        <li><a href="#contact" class="hover:text-blue-600">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="pt-24 pb-16" id="about">
+    <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center">
+      <img src="photo.jpg" alt="Sachin Kumar" class="profile_img w-64 h-auto rounded-full shadow-xl mb-6 md:mb-0 md:mr-10 border-4 border-blue-200" data-aos="fade-right">
+      <div data-aos="fade-left">
+        <h2 class="text-4xl font-extrabold mb-4 text-blue-800">Hi, I'm Sachin Kumar 👋</h2>
+        <p class="text-lg leading-relaxed">
+          I'm a passionate AI & ML enthusiast and Web Developer currently pursuing my studies at the <strong>Army Institute of Technology, Pune</strong>.
+        </p>
+        <p class="mt-4 text-lg leading-relaxed">
+          AIT is affiliated with Savitribai Phule Pune University and operated by the Army Welfare Education Society (AWES). The institute has a strong focus on technical education, offering B.Tech and M.Tech courses. Only wards of army personnel are admitted to this institute. Established in 1994.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- AIT Photo Section -->
+  <section class="bg-violet py-8">
+    <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center">
+      <img src="ait.jpeg" alt="AIT Pune" class="w-64 h-auto rounded-full shadow-xl mb-6 md:mb-0 md:mr-10 border-4 border-violet-400 cursor-pointer transition-transform duration-500 hover:scale-105" data-aos="fade-right">
+      <div data-aos="fade-left">
+        <h3 class="text-2xl font-bold mb-2 text-blue-700">Army Institute of Technology, Pune</h3>
+        <p class="text-md leading-relaxed">
+          Proud student of <strong>Army Institute of Technology, Pune</strong>.
+          AIT is affiliated with Savitribai Phule Pune University and established in 1994. It is operated by the Army Welfare Education Society (AWES) and admits only wards of army personnel.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- School Section -->
+  <section class="py-12 bg-violet">
+    <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center">
+      <img src="school.jpeg" alt="APS Ahmednagar" class="w-64 h-auto rounded-full shadow-xl mb-6 md:mb-0 md:mr-10 border-4 border-violet-400 cursor-pointer transition-transform duration-500 hover:scale-105" data-aos="fade-right">
+      <div data-aos="fade-left">
+        <h3 class="text-2xl font-bold mb-2 text-blue-700">Army Public School, Ahmednagar</h3>
+        <p class="text-md leading-relaxed">
+          Army Public School, Ahmednagar (APS Ahmednagar) is a distinguished educational institution located in Maharashtra, India. Established in 1982, it operates under the Army Welfare Education Society (AWES) and is affiliated with the Central Board of Secondary Education (CBSE). The school offers classes from Grade 1 to Grade 12, providing quality education to both children of Army personnel and civilians, subject to seat availability.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="py-16" id="skills">
+    <div class="max-w-6xl mx-auto px-6">
+      <h3 class="text-3xl font-bold mb-10 text-center text-blue-700" data-aos="fade-up">🛠️ Skills</h3>
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-6 text-center text-blue-800 font-semibold" data-aos="fade-up" data-aos-delay="100">
+        <div>Python</div><div>JavaScript</div><div>SQL</div>
+        <div>HTML, CSS</div><div>React</div><div>Scikit-learn, TensorFlow, Keras</div>
+        <div>Pandas, NumPy, Matplotlib</div><div>Git</div><div>Docker</div><div>PowerBI</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="py-16 bg-violet" id="projects">
+    <div class="max-w-6xl mx-auto px-6">
+      <h3 class="text-3xl font-bold mb-10 text-center text-blue-700" data-aos="fade-up">💼 Projects</h3>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="bg-blue-100 p-6 rounded-xl shadow-md" data-aos="zoom-in">
+          <h4 class="text-xl font-bold mb-2">Password Strength Checker</h4>
+          <p class="mb-4 text-gray-700">A web application that evaluates the strength of passwords based on various criteria.</p>
+          <a href="https://sachin1301-w.github.io/Password-Strength/" target="_blank" class="inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">View Project</a>
+        </div>
+        <div class="bg-blue-100 p-6 rounded-xl shadow-md" data-aos="zoom-in">
+          <h4 class="text-xl font-bold mb-2">Portfolio Website</h4>
+          <p class="mb-4 text-gray-700">This very website you're viewing! Built using HTML, Tailwind CSS, and AOS for animations.</p>
+          <a href="#" class="inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">You're on it!</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements -->
+  <section class="py-16" id="achievements">
+    <div class="max-w-6xl mx-auto px-6">
+      <h3 class="text-3xl font-bold mb-10 text-center text-blue-700" data-aos="fade-up">🏅 Achievements</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="p-4 border rounded-lg shadow bg-white">Selected at college level for Smart India Hackathon</div>
+        <div class="p-4 border rounded-lg shadow bg-white">Scored 8.91 SGPA in First Semester</div>
+        <div class="p-4 border rounded-lg shadow bg-white">Participated in Graphica</div>
+        <div class="p-4 border rounded-lg shadow bg-white">Champion of Abacus (State Level)</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="py-16 --aiinhbfoop-bg-rgb" id="contact">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h3 class="text-3xl font-bold mb-6 text-blue-700" data-aos="fade-up">📞 Contact Me</h3>
+      <p class="text-lg">📍 Pune, Maharashtra</p>
+      <p class="text-lg">📱 <strong>Phone:</strong> +91 73876 18655</p>
+      <p class="text-lg mb-4">📧 <strong>Email:</strong> <a href="mailto:sk.39648215@gmail.com" class="text-blue-600 hover:underline">sk.39648215@gmail.com</a></p>
+      <form class="mt-8 max-w-md mx-auto bg-blue-100 p-6 rounded-lg shadow-md" data-aos="fade-up" data-aos-delay="200">
+        <input type="text" placeholder="Your Name" class="w-full mb-4 p-2 border rounded" required>
+        <input type="email" placeholder="Your Email" class="w-full mb-4 p-2 border rounded" required>
+        <textarea placeholder="Your Message" class="w-full mb-4 p-2 border rounded" rows="4" required></textarea>
+        <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-200 text-center py-4 text-sm text-blue-900">
+    © 2025 Sachin Kumar. All rights reserved.
+  </footer>
+
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+</html>
